@@ -39,7 +39,7 @@ export default function delegateToSchema(
 ): Promise<any> {
   if (options instanceof GraphQLSchema) {
     throw new Error(
-      'Passing positional arguments to delegateToSchema is a deprecated. ' +
+      'Passing positional arguments to delegateToSchema is deprecated. ' +
         'Please pass named parameters instead.',
     );
   }
